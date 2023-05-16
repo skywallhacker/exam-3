@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.container .flex_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.container .flex_box .elem {
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 39px;
+}
+.container .flex_box .elem span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.224px;
+  color: #1D1D1F;
+}
+.container .flex_box .elem div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .flex_box .elem div img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 17px;
+}
+.container .flex_box .elem .mac {
+  width: 219px;
+  height: 219px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container .flex_box .elem .image .sircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+}
+.container .flex_box .elem .image .sircle .sircl {
+  cursor: pointer;
+  background: #cacaca;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.container .flex_box .elem .image .sircle .sircl:nth-child(2) {
+  background: #b1b0b6;
+}
+.container .flex_box .elem .image .sircle .sircl:nth-child(3) {
+  background: #e5ccaf;
+}
+.container .flex_box .elem .title {
+  border-bottom: 1px solid #D2D2D7;
+  width: 320px;
+}
+.container .flex_box .elem .title p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+.container .flex_box .elem .title h1 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+.container .flex_box .elem .title span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.container .flex_box .elem .title button {
+  padding: 4px 12.03px 4px 10.97px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+  width: 45px;
+  height: 24px;
+  border: #0071E3;
+  background: #0071E3;
+  border-radius: 980px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.12px;
+  color: #FFFFFF;
+}
+.container .flex_box .elem .title a {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.224px;
+  color: #0066CC;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+.container .flex_box .elem .touch {
+  border-bottom: 1px solid #D2D2D7;
+  width: 320px;
+}
+.container .flex_box .elem h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 5px;
+  letter-spacing: 0.231px;
+}
